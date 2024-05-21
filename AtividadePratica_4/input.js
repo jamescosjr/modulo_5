@@ -1,4 +1,4 @@
-const { criarInterface } = require('./readlineInterface');
+const { criarInterface } = require('../readlineInterface');
 
 function obterValor(question) {
     return new Promise((resolve) => {

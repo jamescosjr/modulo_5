@@ -1,4 +1,4 @@
-const { criarInterface } = require('./readlineInterface');
+const { criarInterface } = require('../readlineInterface');
 const { converterFahrenheitParaCelsius, converterCelsiusParaFahrenheit } = require('./conversorTemperatura');
 const { perguntarEscala, perguntarTemperatura } = require('./manipuladorEntrada');
 
