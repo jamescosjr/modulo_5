@@ -38,8 +38,10 @@ class GameIO {
                     } else {
                         if (result === "low") {
                             console.log("Muito baixo! Tente novamente.");
+                            console.log("Você ainda tem ", this.attempts, "tentativas para adivinhar o número entre 1 e 100!");
                         } else {
                             console.log("Muito alto! Tente novamente.");
+                            console.log("Você ainda tem ", this.attempts, "tentativas para adivinhar o número entre 1 e 100!");
                         }
                         this.askGuess();
                     }
